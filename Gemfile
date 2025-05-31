@@ -53,6 +53,10 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
+gem "omniauth"
+gem "omniauth-rails_csrf_protection"
+gem "omniauth-proconnect"
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
